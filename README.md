@@ -18,7 +18,7 @@ When this add-in is used, you can:
 
 ## 🛠 How to install
 
-1. Go to the [Releases](releases) folder.
+1. Go to the [Releases](https://github.com/aspose-pdf/aspose-pdf-for-excel-addin/releases) folder.
 2. Download the latest version.
 3. Run the downloaded file and follow the on-screen instructions to install the add-in.
 
@@ -32,14 +32,14 @@ When this add-in is used, you can:
     1. In `File Explorer`, go to the parent folder, or drive letter, of the folder you want to use as your shared folder catalog.
     1. Open the context menu for the folder you want to use as your shared folder catalog (for example, right-click the folder) and choose `Properties`.
     1. In the `Properties` dialog window, open the `Sharing` tab and choose the `Share` button.
-    1. Within the `Network access` dialog window, add yourself and any other users and/or groups with whom you want to share your add-in. The folder must have at least `Read/Write` permission. After you've finished choosing people to share with, choose the `Share` button.
+    1. Within the `Network access` dialog window, add yourself and any other users and/or groups with whom you want to share your add-in. The folder must have at least `Read/Write` permission. After choosing people to share with, choose the `Share` button.
     1. When you see the Your folder is shared confirmation, note the full network path displayed immediately following the folder name. (You'll need to enter this value as the Catalog Url when you specify the shared folder as a trusted catalog, as described in the next section of this article.) Choose the `Done` button to close the `Network Access` dialog window.
     1. Choose the `Close` button to close the `Properties` dialog window.
 
 1. Specify the shared folder as a trusted catalog:
     1. Open a new document in Excel.
     1. Choose the `File` tab, and then choose `Options`.
-    1. Choose `Trust Center`, and then choose the `Trust Center Settings` button.
+    1. Choose `Trust Center` and then the `Trust Center Settings` button.
     ![Option dialog](./assets/image01.png)
     1. Choose `Trusted Add-in Catalogs`.
     1. In the `Catalog Url` box, enter the full network path to the folder that you shared previously. If you failed to note the folder's full network path when you shared the folder, you can get it from the folder's Properties dialog window.
@@ -53,7 +53,7 @@ When this add-in is used, you can:
 
 1. Activate the add-in:
     1. Put the manifest XML file (the one you have edited and saved) into the shared folder.
-    1. Select `Home > Add-ins` from the Excel's ribbon, then select `Get Add-ins`.
+    1. Select `Home > Add-ins` from the Excel ribbon, then select `Get Add-ins`.
     1. Choose `SHARED FOLDER` at the top of the Office Add-ins dialog box.
     ![Shared folder](./assets/image03.png)
     1. Select the Aspose.PDF for Excel add-in and choose `Add to insert the add-in`.
