@@ -1,4 +1,4 @@
-# Aspose.PDF for Excel and Aspose.PDF for Word Add-ins
+# Aspose.PDF for Excel, Word Add-ins
 
 Export Excel workbooks, sheets & ranges into editable PDFs with our Excel Add-in. Or create editable PDFs from Word documents, pages & selections with our Word Add-in.
 
